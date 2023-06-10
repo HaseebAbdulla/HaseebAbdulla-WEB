@@ -1,0 +1,40 @@
+.animation {
+    text-align: center;
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+
+    100% {
+        background-position: 500%;
+    }
+}
+
+.subheading2 {
+    color: #5a5858;
+    font-family: 'Poppins';
+    font-size: 13px;
+    text-align: center;
+
+}
+
+.subheading2 img {
+    height: 10px;
+    width: 10px;
+}
+
+

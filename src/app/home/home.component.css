@@ -1,0 +1,364 @@
+.main {
+    position: relative;
+    font-family: 'Montserrat';
+    height: 100vh;
+
+}
+
+
+.head-icons {
+    padding: 10px;
+    font-size: 18px;
+    gap: 20px;
+    position: relative;
+    display: flex;
+    gap: 10px;
+
+}
+
+
+.head-icons2 {
+
+    padding: 10px;
+    font-size: 14px;
+    gap: 20px;
+    position: relative;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.head-icons svg {
+    width: 10px;
+    height: 10px;
+}
+
+.title {
+    margin-top: 10px;
+}
+
+
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    width: 50%;
+}
+
+.l-container {
+    background-image: url('../../assets/Copy_of_1685539013489.jpg');
+    width: 150px;
+    height: 150px;
+    border: rgb(219, 216, 216) 7px solid;
+    border-radius: 100%;
+    margin: 220px;
+    background-size: cover;
+    display: block;
+    margin-top: 250px;
+    transition: transform .2s;
+}
+
+.l-container:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+.myself span {
+    font-size: large;
+}
+
+.myself h1 {
+    font-weight: bold;
+}
+
+.summary {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+.aboutme {
+    margin-top: 20px;
+}
+
+.aboutme h3 {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.aboutme ul {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #5a5858;
+    font-size: 13px;
+}
+
+
+.subheading {
+    color: #5a5858;
+    font-family: 'Poppins';
+    font-size: 13px;
+
+
+}
+
+
+
+.head {
+    margin: 220px;
+
+}
+
+
+
+.right {
+    width: 70%;
+    position: relative;
+    margin-top: -10px;
+    right: -10px;
+    background-image: linear-gradient(rgb(230, 247, 247), white);
+}
+
+.myself {
+    position: relative;
+    margin-top: 60px;
+    margin-left: 190px;
+    color: gray;
+    font-family: 'sfpro';
+
+}
+
+.contents {
+    width: 70%;
+    position: relative;
+    margin-top: 100px;
+    margin: 25%;
+    width: 1100px;
+
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-size: cover;
+}
+
+.profile {
+    display: none;
+    justify-content: center;
+}
+
+.r-container {
+    position: relative;
+    top: 130px;
+    margin: 60px;
+    padding: 25px;
+
+}
+
+.contents {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+}
+
+
+
+.footer {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    font-size: 8px;
+    height: 5vh;
+}
+
+.dte {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    font-size: 11px;
+    font-weight: 400;
+    height: 5vh;
+
+}
+
+@media screen and (max-width: 1300px) {
+
+
+
+    .left {
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .l-container {
+        position: relative;
+        margin: 220px;
+        margin-top: 230px;
+    }
+  
+
+    .right {
+        width: 100%;
+    }
+
+   
+
+    .progress-bar {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+   
+    .left {
+        width: 500px;
+
+    }
+
+    .l-container {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        margin: 190px;
+        margin-top: 230px;
+
+    }
+
+    .right {
+        width: 70%;
+    }
+
+    .myself {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .main {
+        border: none;
+        overflow-x: hidden;
+    }
+
+    .left {
+        display: none;
+        background-color: #565656;
+    }
+
+
+    .right {
+        width: 100%;
+        position: relative;
+        height: 70%;
+
+    }
+
+    .title {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .head-icons {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        height: 70vh
+    }
+
+    .r-container {
+        height: 50px;
+    }
+
+    .head-name {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile {
+        display: flex;
+    }
+
+    .r-container {
+        margin: 20px;
+        top: 20px;
+        position: relative;
+    }
+
+    .myself {
+        margin-top: 30px;
+    }
+
+    .myself a {
+        font-size: medium;
+    }
+
+  
+}
+
+@media screen and (max-width:450px) {
+    .r-container {
+        margin: 0 10px;
+
+    }
+
+    .container {
+        height: 80vh
+    }
+
+    .aboutme {
+        display: none;
+    }
+
+   
+
+    
+
+    .head-name {
+        text-align: center;
+        position: relative;
+        margin-left: 1px;
+        margin-right: 50px;
+    }
+
+   
+}
+
+@media screen and (max-width:350px) {
+    .r-container {
+        margin: 0 10px;
+    }
+
+   
+
+}
+
+
+
+
+
